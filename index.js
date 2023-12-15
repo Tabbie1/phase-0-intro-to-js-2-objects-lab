@@ -19,7 +19,7 @@ var employee = {
   function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
    
     employee[key] = value;
-    return employee;
+    return employee
   }
 
   function deleteFromEmployeeByKey(employee, key) {
